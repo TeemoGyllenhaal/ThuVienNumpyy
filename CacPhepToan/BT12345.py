@@ -3,18 +3,22 @@ import numpy as np
 def sinh_ngau_nhien_so_nguyen(a,b,n):
     v1 = np.random.randint(low = a, high= b, size=n )
     return v1
+#BT1
 def nhan_mot_so_voi_1_vector(x,a):
     v2 = x * a
     print("Vecto sau khi nhân: ", v2)
     return v2
+#BT2
 def cong_hai_vecto(x,y):
     s = x + y
     print("Vecto sau khi cộng: ",s)
     return s
+#BT3
 def nhan_hai_vecto_vo_huong(x,y):
     p = np.dot(x,y)
     print("Vecto sau khi nhân vô hướng: ",p)
     return p
+#BT4
 def nhan_hai_vecto_hadamard(x,y):
     h = np.multiply(x, y)
     print("Vecto sau khi nhân Hadamard: ",h)
